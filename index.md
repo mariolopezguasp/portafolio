@@ -8,13 +8,13 @@
 
   <!-- Sección Objetivo -->
   <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
-    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">OBJETIVO PROFESIONAL</h3>
-    <p style="line-height: 1.6;">Soy un científico de datos Junior en constante evolución, en proceso de finalizar mis estudios de Ciencia de Datos en la Universidad de Valencia. Mi pasión por este campo y mi dedicación son evidentes en mi búsqueda activa por oportunidades laborales en este sector.</p>
+    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">SOBRE MI</h3>
+    <p style="line-height: 1.6;">Soy un científico de datos en proceso de finalizar mis estudios de Ciencia de Datos en la Universidad de Valencia. Estoy muy motivado a desarrollar mis habilidades y conocimientos en el mundo laboral. Tengo una actitud proactiva que hará que mi trabajo se complemente con la visión y objetivos de la empresa.</p>
   </div>
 
   <!-- Sección Habilidades -->
   <div style="margin-bottom: 20px;">
-    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">HABILIDADES TÉCNICAS</h3>
+    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Tecnologías</h3>
     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
       <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px;">Python</span>
       <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px;">Pandas</span>
@@ -23,12 +23,22 @@
       <!-- Añade más habilidades -->
     </div>
   </div>
-
-  <!-- Sección Experiencia -->
+  
+  <!-- Sección Proyectos -->
   <div style="margin-bottom: 20px;">
-    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">EXPERIENCIA LABORAL</h3>
+    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">PROYECTOS</h3>
     <div style="margin-bottom: 15px;">
-      <h4 style="margin-bottom: 5px;">Syntech Research | Marzo 2023 - Agosto 2023</h4>
+      <h4 style="margin-bottom: 5px;">Ciencia de Datos | 2022 - 2026</h4>
+      <p style="margin: 0; line-height: 1.6;">Tareas de Verificación de equipos y material de laboratorio. Registro, procesamiento y envío de productos.</p>
+    </div>
+    <!-- Añade más proyectos -->
+  </div>
+  
+  <!-- Sección Formación -->
+  <div style="margin-bottom: 20px;">
+    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">FORMACIÓN</h3>
+    <div style="margin-bottom: 15px;">
+      <h4 style="margin-bottom: 5px;">Ciencia de Datos | 2022 - 2026</h4>
       <p style="margin: 0; line-height: 1.6;">Tareas de Verificación de equipos y material de laboratorio. Registro, procesamiento y envío de productos.</p>
     </div>
     <!-- Añade más experiencias -->
