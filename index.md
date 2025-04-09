@@ -1,7 +1,3 @@
----
-layout: home
----
-
 # Mario López Guasp  
 ## **Científico de Datos**  
 
