@@ -35,7 +35,7 @@
     <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Proyectos</h3>
     <div style="margin-bottom: 15px;">
       <h4 style="margin-bottom: 5px;">Ciencia de Datos | 2022 - 2026</h4>
-      <p style="margin: 0; line-height: 1.6;">Tareas de Verificación de equipos y material de laboratorio. Registro, procesamiento y envío de productos.</p>
+      <p style="margin: 0; line-height: 1.6;">Análisis y visualización de datos relativos a la contaminación atmosférica y zonas verdes con tal de comprender los motivos que han llevado a Valencia a ser elegida Capital Verde Europea 2024.</p>
     </div>
     <!-- Añade más proyectos -->
   </div>
@@ -45,20 +45,23 @@
     <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Formación</h3>
     <div style="margin-bottom: 15px;">
       <h4 style="margin-bottom: 5px;">Ciencia de Datos | 2022 - 2026</h4>
-      <p style="margin: 0; line-height: 1.6;">Tareas de Verificación de equipos y material de laboratorio. Registro, procesamiento y envío de productos.</p>
     </div>
     <!-- Añade más experiencias -->
   </div>
 
-   <!-- Sección Formación -->
+   <!-- Sección Extra -->
   <div style="margin-bottom: 20px;">
     <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Extra</h3>
     <div style="margin-bottom: 15px;">
-      <h4 style="margin-bottom: 5px;">Analisis exploratorio</h4>
-      <p style="margin: 0; line-height: 1.6;">Procesos de ETL y extracción de características sobre datos de vino.</p>
+      <h4 style="margin-bottom: 5px;">Analisis exploratorio completo sobre un dataset de vino</h4>
+      <p style="margin: 0; line-height: 1.6;">Procesos de ETL, extracción de características  y visualización sobre  los datos del vino.</p>
     </div>
     <div style="margin-bottom: 15px;">
-      <h4 style="margin-bottom: 5px;">Predicción del precio de viviendas</h4>
+      <h4 style="margin-bottom: 5px;">Analisis exploratorio completo sobre un dataset de vino</h4>
+      <p style="margin: 0; line-height: 1.6;">Procesos de ETL, extracción de características  y visualización sobre  los datos del vino.</p>
+    </div>
+    <div style="margin-bottom: 15px;">
+      <h4 style="margin-bottom: 5px;">Predicción del precio de vivienda en Florida</h4>
       <p style="margin: 0; line-height: 1.6;">Modelos de árboles de decisión y RF para predecir precio de la vivienda en Florida.</p>
     </div>
     <!-- Añade más experiencias -->
@@ -66,7 +69,7 @@
   
   <!-- Footer con contacto -->
   <div style="text-align: center; margin-top: 40px; color: #7f8c8d;">
-    <p>📧 mario@email.com | 🔗 <a href="https://linkedin.com/in/tuperfil" style="color: #3498db;">LinkedIn</a></p>
+    <p>mariolopezguasp@email.com | <a href="www.linkedin.com/in/mario-lópez-guasp-56b462225" style="color: #3498db;">LinkedIn</a></p>
   </div>
 
 </div>
