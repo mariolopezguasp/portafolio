@@ -1,10 +1,14 @@
-<div style="font-family: 'Segoe UI', Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; color: #333;">
+<!-- Header con nombre y título -->
+<div style="display: flex; align-items: center; justify-content: center; margin-bottom: 30px; gap: 20px;">
+  <!-- Imagen -->
+  <img src="assets/fotocarnetmario.jfif" alt="Foto de Mario" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 2px solid #3498db;">
   
-  <!-- Header con nombre y título -->
-  <div style="text-align: center; margin-bottom: 30px;">
-    <h1 style="color: #2c3e50; font-size: 2.5em;">Mario López Guasp</h1>
-    <h2 style="color: #3498db; font-weight: 300;">DATA SCIENTIST</h2>
+  <!-- Nombre y título -->
+  <div style="text-align: left;">
+    <h1 style="color: #2c3e50; font-size: 2.5em; margin: 0;">Mario López Guasp</h1>
+    <h2 style="color: #3498db; font-weight: 300; margin: 0;">DATA SCIENTIST</h2>
   </div>
+</div>
 
   <!-- Sección Objetivo -->
   <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
