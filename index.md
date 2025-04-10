@@ -69,7 +69,7 @@
   
   <!-- Footer con contacto -->
   <div style="text-align: center; margin-top: 40px; color: #7f8c8d;">
-    <p>mariolopezguasp@email.com | <a href="www.linkedin.com/in/mario-lópez-guasp-56b462225" style="color: #3498db;">LinkedIn</a></p>
+    <p>mariolopezguasp@email.com | <a href="www.linkedin.com/in/mario-lópez-guasp-56b462225" style="color: #3498db;">LinkedIn</a> | <a href="https://github.com/mariolopezguasp" style="color: #3498db;">Github</a></p>
   </div>
 
 </div>
