@@ -68,6 +68,10 @@
     <div style="margin-bottom: 15px;">
       <h4 style="margin-bottom: 5px;">Ciencia de Datos | 2022 - 2026</h4>
       <p style="margin: 0; line-height: 1.6;">Análisis y visualización de datos relativos a la contaminación atmosférica y zonas verdes con tal de comprender los motivos que han llevado a Valencia a ser elegida Capital Verde Europea 2024.</p>
+      <a href="https://github.com/mariolopezguasp/ValenciaVerde" target="_blank" style="text-decoration: none;">
+      <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
+        <span style="color: #0077b5; font-size: 0.95em;">Ver en GitHub</span>
     </div>
   </div>
 
@@ -80,22 +84,6 @@
     </div>
   </div>
 
-  <!-- Sección Extra -->
-  <div style="margin-bottom: 40px;">
-    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Otros trabajos realizados</h3>
-    <div style="margin-bottom: 15px;">
-      <h4 style="margin-bottom: 5px;">Análisis exploratorio completo sobre un dataset de vino</h4>
-      <p style="margin: 0; line-height: 1.6;">Procesos de ETL, extracción de características y visualización sobre los datos del vino.</p>
-    </div>
-    <div style="margin-bottom: 15px;">
-      <h4 style="margin-bottom: 5px;">Predicción del precio de vivienda en Florida</h4>
-      <p style="margin: 0; line-height: 1.6;">Entrenamiento de un modelo de regresión para predecir el precio de la vivienda en Florida.</p>
-    </div>
-    <div style="margin-bottom: 15px;">
-      <h4 style="margin-bottom: 5px;">Agrupamiento de sonidos</h4>
-      <p style="margin: 0; line-height: 1.6;">Análisis no supervisado para agrupar distintos sonidos según sus características acústicas.</p>
-    </div>
-  </div>
 
   <!-- Sección Extra -->
 <div style="margin-bottom: 40px;">
@@ -105,12 +93,20 @@
     <h4 style="margin-bottom: 5px;">Análisis exploratorio completo sobre un dataset de vino</h4>
     <p style="margin: 0 0 8px 0; line-height: 1.6;">Procesos de ETL, extracción de características y visualización sobre los datos del vino.</p>
     <!-- Aquí puedes añadir el botón si tienes repo -->
+    <a href="https://github.com/mariolopezguasp/Vino" target="_blank" style="text-decoration: none;">
+      <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
+        <span style="color: #0077b5; font-size: 0.95em;">Ver en GitHub</span>
   </div>
 
   <div style="margin-bottom: 15px;">
     <h4 style="margin-bottom: 5px;">Predicción del precio de vivienda en Florida</h4>
     <p style="margin: 0 0 8px 0; line-height: 1.6;">Entrenamiento de un modelo de regresión para predecir el precio de la vivienda en Florida.</p>
     <!-- Aquí también podrías poner botón si tienes el repo -->
+    <a href="https://github.com/mariolopezguasp/CasasCalifornia" target="_blank" style="text-decoration: none;">
+      <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
+        <span style="color: #0077b5; font-size: 0.95em;">Ver en GitHub</span>
   </div>
 
   <div style="margin-bottom: 15px;">
