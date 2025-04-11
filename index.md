@@ -16,14 +16,14 @@
       <div style="display: flex; flex-wrap: wrap; gap: 10px;">
         <!-- Email -->
         <a href="mailto:mariolopezguasp@gmail.com" style="text-decoration: none;">
-          <div style="display: flex; align-items: center; gap: 8px; background-color: #fff5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #e74c3c;">
-            <span style="color: #e74c3c;">mariolopezguasp@gmail.com</span>
+          <div style="display: flex; align-items: center; gap: 8px; background-color: #fff5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
+            <span style="color: #0077b5;">mariolopezguasp@gmail.com</span>
           </div>
         </a>
         <!-- CV -->
         <a href="assets/CV_MarioLopezGuasp.pdf" target="_blank" style="text-decoration: none;">
-          <div style="display: flex; align-items: center; gap: 8px; background-color: #f0fff4; padding: 6px 10px; border-radius: 6px; border: 1px solid #27ae60;">
-            <span style="color: #27ae60; font-weight: 500;">📄 CV</span>
+          <div style="display: flex; align-items: center; gap: 8px; background-color: #f0fff4; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
+            <span style="color: #0077b5; font-weight: 500;">📄 CV</span>
           </div>
         </a>
         <!-- LinkedIn -->
@@ -35,9 +35,9 @@
         </a>
         <!-- GitHub -->
         <a href="https://github.com/mariolopezguasp" target="_blank" style="text-decoration: none;">
-          <div style="display: flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #ccc;">
+          <div style="display: flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 20px; height: 20px;">
-            <span style="color: #333;">GitHub</span>
+            <span style="color: #0077b5;">GitHub</span>
           </div>
         </a>
       </div>
