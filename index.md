@@ -75,7 +75,7 @@
             <span style="color: #000000;">mariolopezguasp@gmail.com</span>
           </div>
         </a>
-        <a href="assets/CV_MarioLopezGuasp.pdf" target="_blank" style="text-decoration: none;">
+        <a href="assets/CurriculumMario.pdf" target="_blank" style="text-decoration: none;">
           <div style="display: flex; align-items: center; gap: 8px; background-color: #f0fff4; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
             <span style="color: #0077b5; font-weight: 500;">📄 CV</span>
           </div>
@@ -232,7 +232,7 @@
           <span style="color: #000000;">mariolopezguasp@gmail.com</span>
         </div>
       </a>
-      <a href="assets/CV_MarioLopezGuasp.pdf" target="_blank" style="text-decoration: none;">
+      <a href="assets/CurriculumMario.pdf" target="_blank" style="text-decoration: none;">
         <div style="display: flex; align-items: center; gap: 8px; background-color: #f0fff4; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
           <span style="color: #0077b5; font-weight: 500;">📄 CV</span>
         </div>
