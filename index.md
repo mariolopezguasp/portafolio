@@ -16,7 +16,7 @@
       <!-- Email -->
       <a href="mailto:mariolopezguasp@gmail.com" style="text-decoration: none;">
         <div style="display: flex; align-items: center; gap: 8px; background-color: #fff5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #e74c3c;">
-          <span style="color: #e74c3c;">📧 mariolopezguasp@gmail.com</span>
+          <span style="color: #e74c3c;">mariolopezguasp@gmail.com</span>
         </div>
       </a>
        <!-- CV -->
