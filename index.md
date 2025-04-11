@@ -116,7 +116,7 @@
         </div>
       </a>
     </div>
-    <img src="assets/sonidos.png" alt="Agrupamiento de Sonidos" style="width: 180px; border-radius: 10px; object-fit: cover;">
+    <img src="cluster.PNG" alt="Agrupamiento de Sonidos" style="width: 180px; border-radius: 10px; object-fit: cover;">
   </div>
 </div>
 
