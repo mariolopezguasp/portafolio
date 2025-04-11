@@ -120,27 +120,13 @@
       <i class="devicon-mysql-plain" style="font-size: 30px; margin-right: 8px;"></i> SQL
     </span>
     <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px; display: flex; align-items: center;">
-      <i class="devicon-matplotlib-plain" style="font-size: 30px; margin-right: 8px;"></i> Matplotlib
+      <i class="devicon-matplotlib-original" style="font-size: 30px; margin-right: 8px;"></i> Matplotlib
     </span>
     <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px; display: flex; align-items: center;">
       <i class="devicon-tensorflow-original" style="font-size: 30px; margin-right: 8px;"></i> TensorFlow
     </span>
   </div>
 </div>
-
-
-  <!-- Sección Tecnologías -->
-  <div style="margin-bottom: 40px;">
-    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Tecnologías</h3>
-    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px;">Python</span>
-      <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px;">Pandas</span>
-      <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px;">Power BI</span>
-      <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px;">SQL</span>
-    </div>
-  </div>
-
-
 
 <!-- Sección Proyectos -->
 <div style="margin-bottom: 40px;">
