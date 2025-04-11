@@ -76,7 +76,7 @@
     <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Formación</h3>
     <div style="margin-bottom: 15px;">
       <h4 style="margin-bottom: 5px;">Ciencia de Datos | 2022 - 2026</h4>
-       <p style="margin: 0; line-height: 1.6;">📌 Universidad de Valencia</p>
+       <p style="margin: 0; line-height: 1.6;">Universidad de Valencia</p>
     </div>
   </div>
 
