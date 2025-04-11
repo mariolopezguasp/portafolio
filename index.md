@@ -1,284 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mario López Guasp - Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galería con Lightbox</title>
   <style>
-    /* Estilos base */
+    * {
+      box-sizing: border-box;
+    }
     body {
       font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
-    img.zoomable {
-      transition: transform 0.3s ease;
-      cursor: zoom-in;
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 20px;
+      justify-content: center;
     }
-    img.zoomable:hover {
+    .gallery img {
+      width: 200px;
+      height: auto;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+    .gallery img:hover {
       transform: scale(1.05);
     }
-    /* Lightbox (pantalla completa al hacer clic) */
     .lightbox {
       display: none;
       position: fixed;
-      z-index: 1000;
-      top: 0; left: 0;
+      top: 0;
+      left: 0;
       width: 100vw;
       height: 100vh;
-      background-color: rgba(0,0,0,0.8);
+      background-color: rgba(0, 0, 0, 0.8);
       justify-content: center;
       align-items: center;
+      z-index: 9999;
     }
     .lightbox img {
       max-width: 90%;
       max-height: 90%;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    }
-    .lightbox:target {
-      display: flex;
-    }
-    /* Botón de cerrar */
-    .lightbox-close {
-      position: absolute;
-      top: 20px;
-      right: 30px;
-      font-size: 40px;
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .lightbox-close:hover {
-      color: #ddd;
+      border-radius: 8px;
     }
   </style>
 </head>
 <body>
 
-
-<!-- CONTENEDOR PRINCIPAL -->
-<div style="max-width: 900px; margin: 0 auto; padding: 30px; font-family: Arial, sans-serif;">
-
-  <!-- Header completo con foto a la izquierda y datos a la derecha -->
-  <div style="display: flex; align-items: center; gap: 30px; margin-bottom: 40px;">
-    <!-- Imagen -->
-    <img src="assets/fotocarnetmario.jfif" alt="Foto de Mario" style="width: 120px; height: 120px; border-radius: 10%; object-fit: cover; border: 2px solid #3498db;">
-    <!-- Información: nombre, título y botones -->
-    <div style="display: flex; flex-direction: column; gap: 12px;">
-      <!-- Nombre y título -->
-      <div>
-        <h1 style="color: #2c3e50; font-size: 2.2em; margin: 0;">Mario López Guasp</h1>
-        <h2 style="color: #3498db; font-weight: 300; margin: 0;">DATA SCIENTIST</h2>
-      </div>
-      <!-- Botones de contacto -->
-      <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-        <a href="mailto:mariolopezguasp@gmail.com" style="text-decoration: none;">
-          <div style="display: flex; align-items: center; gap: 8px; background-color: #fff5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
-            <span style="color: #000000;">mariolopezguasp@gmail.com</span>
-          </div>
-        </a>
-        <a href="assets/CV_MarioLopezGuasp.pdf" target="_blank" style="text-decoration: none;">
-          <div style="display: flex; align-items: center; gap: 8px; background-color: #f0fff4; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
-            <span style="color: #0077b5; font-weight: 500;">📄 CV</span>
-          </div>
-        </a>
-        <a href="https://www.linkedin.com/in/mario-l%C3%B3pez-guasp-56b462225/" target="_blank" style="text-decoration: none;">
-          <div style="display: flex; align-items: center; gap: 8px; background-color: #eaf4fb; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width: 20px; height: 20px;">
-            <span style="color: #0077b5;">LinkedIn</span>
-          </div>
-        </a>
-        <a href="https://github.com/mariolopezguasp" target="_blank" style="text-decoration: none;">
-          <div style="display: flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 20px; height: 20px;">
-            <span style="color: #0077b5;">GitHub</span>
-          </div>
-        </a>
-      </div>
-    </div>
+  <div class="gallery">
+    <img src="https://via.placeholder.com/600x400/0000FF/FFFFFF?text=Imagen+1" alt="Imagen 1" onclick="openLightbox(this.src)">
+    <img src="https://via.placeholder.com/600x400/FF0000/FFFFFF?text=Imagen+2" alt="Imagen 2" onclick="openLightbox(this.src)">
+    <img src="https://via.placeholder.com/600x400/00FF00/FFFFFF?text=Imagen+3" alt="Imagen 3" onclick="openLightbox(this.src)">
+    <img src="https://via.placeholder.com/600x400/FFA500/FFFFFF?text=Imagen+4" alt="Imagen 4" onclick="openLightbox(this.src)">
   </div>
 
-  <!-- Sección Sobre mí -->
-  <div style="margin-bottom: 40px;">
-    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Sobre mi</h3>
-    <p style="line-height: 1.6; margin: 0;">Soy un científico de datos en proceso de finalizar mis estudios de Ciencia de Datos en la Universidad de Valencia. Estoy muy motivado a desarrollar mis habilidades y conocimientos en el mundo laboral. Tengo una actitud proactiva que hará que mi trabajo se complemente con la visión y objetivos de la empresa.</p>
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <img id="lightbox-img" src="" alt="Imagen ampliada">
   </div>
 
-  <!-- Sección Tecnologías -->
-  <div style="margin-bottom: 40px;">
-    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Tecnologías</h3>
-    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px;">Python</span>
-      <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px;">Pandas</span>
-      <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px;">Power BI</span>
-      <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px;">SQL</span>
-    </div>
-  </div>
+  <script>
+    function openLightbox(src) {
+      const lightbox = document.getElementById('lightbox');
+      const img = document.getElementById('lightbox-img');
+      img.src = src;
+      lightbox.style.display = 'flex';
+    }
 
-
-
-<!-- Sección Proyectos -->
-<div style="margin-bottom: 40px;">
-  <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Proyectos</h3>
-  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 15px;">
-     <!-- Ejemplo modificado con zoom y ampliación -->
-  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 15px;">
-    <div style="flex: 1;">
-      <h4 style="margin-bottom: 5px;">Web dinámica sobre datos medioambientales georreferenciados</h4>
-      <p style="margin: 0; line-height: 1.6;">Análisis y visualización de datos relativos a la contaminación atmosférica y zonas verdes con tal de comprender los motivos que han llevado a Valencia a ser elegida Capital Verde Europea 2024.</p>
-      <a href="https://github.com/mariolopezguasp/ValenciaVerde" target="_blank" style="text-decoration: none;">
-        <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
-        </div>
-      </a>
-    </div>
-    <!-- Imagen con zoom y lightbox -->
-    <a href="#img1"><img src="assets/verdep.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 260px; border-radius: 10px; object-fit: cover;"></a>
-  </div>
-
-  <!-- Lightbox para ver en grande -->
-  <div id="img1" class="lightbox">
-    <a href="#" class="lightbox-close">&times;</a>
-    <img src="assets/verdep.PNG" alt="Web ValenciaVerde Ampliada">
-  </div>
-</div>
-
-  <!-- Sección Formación -->
-  <div style="margin-bottom: 40px;">
-    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Formación</h3>
-    <div style="margin-bottom: 15px;">
-      <h4 style="margin-bottom: 5px;">Ciencia de Datos | 2022 - 2026</h4>
-      <p style="margin: 0; line-height: 1.6;">Universidad de Valencia</p>
-    </div>
-  </div>
-
-<!-- Sección Otros trabajos -->
-<div style="margin-bottom: 40px;">
-  <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Otros trabajos realizados</h3>
-     <!-- Ejemplo modificado con zoom y ampliación -->
-  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 15px;">
-    <div style="flex: 1;">
-      <h4 style="margin-bottom: 5px;">Análisis exploratorio completo sobre un dataset de vino</h4>
-      <p style="margin: 0; line-height: 1.6;">Procesos de ETL, extracción de características y visualización sobre los datos del vino.</p>
-      <a href="https://github.com/mariolopezguasp/Vino" target="_blank" style="text-decoration: none;">
-        <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
-        </div>
-      </a>
-    </div>
-    <!-- Imagen con zoom y lightbox -->
-    <a href="#img1"><img src="assets/verdep.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 260px; border-radius: 10px; object-fit: cover;"></a>
-  </div>
-
-  <!-- Lightbox para ver en grande -->
-  <div id="img1" class="lightbox">
-    <a href="#" class="lightbox-close">&times;</a>
-    <img src="assets/vino.PNG" alt="Web ValenciaVerde Ampliada">
-  </div>
-
-  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 15px;">
-    <div style="flex: 1;">
-      <h4 style="margin-bottom: 5px;">Predicción del precio de vivienda en Florida</h4>
-      <p style="margin: 0; line-height: 1.6;">Entrenamiento de un modelo de regresión para predecir el precio de la vivienda en Florida.</p>
-      <a href="https://github.com/mariolopezguasp/CasasCalifornia" target="_blank" style="text-decoration: none;">
-        <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
-        </div>
-      </a>
-    </div>
-    <!-- Imagen con zoom y lightbox -->
-    <a href="#img1"><img src="assets/RF.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 260px; border-radius: 10px; object-fit: cover;"></a>
-  </div>
-
-
-  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 15px;">
-    <div style="flex: 1;">
-      <h4 style="margin-bottom: 5px;">Agrupamiento de sonidos</h4>
-      <p style="margin: 0 0 8px 0; line-height: 1.6;">Análisis no supervisado para agrupar distintos sonidos según sus características acústicas.</p>
-      <a href="https://github.com/mariolopezguasp/AgrupamientoSonidos" target="_blank" style="text-decoration: none;">
-        <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
-        </div>
-      </a>
-    </div>
-    <img src="assets/cluster.PNG" alt="Agrupamiento de Sonidos" style="width: 250px; border-radius: 10px; object-fit: cover;">
-  </div>
-</div>
-
-  <!-- Footer con botones de contacto -->
-  <div style="text-align: center; margin-top: 20px;">
-    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
-      <a href="mailto:mariolopezguasp@gmail.com" style="text-decoration: none;">
-        <div style="display: flex; align-items: center; gap: 8px; background-color: #fff5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
-          <span style="color: #000000;">mariolopezguasp@gmail.com</span>
-        </div>
-      </a>
-      <a href="assets/CV_MarioLopezGuasp.pdf" target="_blank" style="text-decoration: none;">
-        <div style="display: flex; align-items: center; gap: 8px; background-color: #f0fff4; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
-          <span style="color: #0077b5; font-weight: 500;">📄 CV</span>
-        </div>
-      </a>
-      <a href="https://www.linkedin.com/in/mario-l%C3%B3pez-guasp-56b462225/" target="_blank" style="text-decoration: none;">
-        <div style="display: flex; align-items: center; gap: 8px; background-color: #eaf4fb; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width: 20px; height: 20px;">
-          <span style="color: #0077b5;">LinkedIn</span>
-        </div>
-      </a>
-      <a href="https://github.com/mariolopezguasp" target="_blank" style="text-decoration: none;">
-        <div style="display: flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 20px; height: 20px;">
-          <span style="color: #0077b5;">GitHub</span>
-        </div>
-      </a>
-    </div>
-  </div>
-
-</div>
-
-
-  <!-- ... TODO TU CONTENIDO DE ANTES SE MANTIENE IGUAL ... -->
-
-  <!-- Ejemplo modificado con zoom y ampliación -->
-  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 15px;">
-    <div style="flex: 1;">
-      <h4 style="margin-bottom: 5px;">Web dinámica sobre datos medioambientales georreferenciados</h4>
-      <p style="margin: 0; line-height: 1.6;">Análisis y visualización de datos relativos a la contaminación atmosférica y zonas verdes con tal de comprender los motivos que han llevado a Valencia a ser elegida Capital Verde Europea 2024.</p>
-      <a href="https://github.com/mariolopezguasp/ValenciaVerde" target="_blank" style="text-decoration: none;">
-        <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
-        </div>
-      </a>
-    </div>
-    <!-- Imagen con zoom y lightbox -->
-    <a href="#img1"><img src="assets/verdep.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 260px; border-radius: 10px; object-fit: cover;"></a>
-  </div>
-
-  <!-- Lightbox para ver en grande -->
-  <div id="img1" class="lightbox">
-    <a href="#" class="lightbox-close">&times;</a>
-    <img src="assets/verdep.PNG" alt="Web ValenciaVerde Ampliada">
-  </div>
-
-  <!-- Puedes repetir este patrón para todas las imágenes del portfolio -->
-  <!-- Otro ejemplo -->
-  <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 15px;">
-    <div style="flex: 1;">
-      <h4 style="margin-bottom: 5px;">Análisis de Vino</h4>
-      <p style="margin: 0 0 8px 0; line-height: 1.6;">Procesos de ETL, extracción de características y visualización sobre los datos del vino.</p>
-      <a href="https://github.com/mariolopezguasp/Vino" target="_blank" style="text-decoration: none;">
-        <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
-          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
-        </div>
-      </a>
-    </div>
-    <a href="#img2"><img src="assets/vino.PNG" alt="Análisis de Vino" class="zoomable" style="width: 250px; border-radius: 10px; object-fit: cover;"></a>
-  </div>
-
-  <div id="img2" class="lightbox">
-    <a href="#" class="lightbox-close">&times;</a>
-    <img src="assets/vino.PNG" alt="Análisis de Vino Ampliado">
-  </div>
-
-</div>
+    function closeLightbox(event) {
+      const lightbox = document.getElementById('lightbox');
+      // Cierra el lightbox solo si se hace clic fuera de la imagen
+      if (event.target === lightbox) {
+        lightbox.style.display = 'none';
+      }
+    }
+  </script>
 
 </body>
 </html>
