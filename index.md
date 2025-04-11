@@ -122,13 +122,4 @@
       </div>
     </a>
   </div>
-
-  <!-- Footer con contacto -->
-  <div style="text-align: center; margin-top: 20px; color: #7f8c8d;">
-    <p>mariolopezguasp@email.com | 
-      <a href="https://www.linkedin.com/in/mario-l%C3%B3pez-guasp-56b462225/" style="color: #3498db;">LinkedIn</a> | 
-      <a href="https://github.com/mariolopezguasp" style="color: #3498db;">GitHub</a>
-    </p>
-  </div>
-
 </div>
