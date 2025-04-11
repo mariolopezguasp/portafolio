@@ -102,6 +102,33 @@
     <p style="line-height: 1.6; margin: 0;">Soy un científico de datos en proceso de finalizar mis estudios de Ciencia de Datos en la Universidad de Valencia. Estoy muy motivado a desarrollar mis habilidades y conocimientos en el mundo laboral. Tengo una actitud proactiva que hará que mi trabajo se complemente con la visión y objetivos de la empresa.</p>
   </div>
 
+
+<!-- Añadir Devicon -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+<!-- Sección Tecnologías -->
+<div style="margin-bottom: 40px;">
+  <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Tecnologías</h3>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px; display: flex; align-items: center;">
+      <i class="devicon-python-plain" style="font-size: 30px; margin-right: 8px;"></i> Python
+    </span>
+    <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px; display: flex; align-items: center;">
+      <i class="devicon-r-plain" style="font-size: 30px; margin-right: 8px;"></i> R
+    </span>
+    <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px; display: flex; align-items: center;">
+      <i class="devicon-mysql-plain" style="font-size: 30px; margin-right: 8px;"></i> SQL
+    </span>
+    <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px; display: flex; align-items: center;">
+      <i class="devicon-scikit-learn-original" style="font-size: 30px; margin-right: 8px;"></i> scikit-learn
+    </span>
+    <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px; display: flex; align-items: center;">
+      <i class="devicon-tensorflow-original" style="font-size: 30px; margin-right: 8px;"></i> TensorFlow
+    </span>
+  </div>
+</div>
+
+
   <!-- Sección Tecnologías -->
   <div style="margin-bottom: 40px;">
     <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Tecnologías</h3>
