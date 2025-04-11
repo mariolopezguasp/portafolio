@@ -1,3 +1,30 @@
+<!-- Estilo adicional para hover de imágenes -->
+<style>
+  .imagen-proyecto {
+    width: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .imagen-proyecto:hover {
+    transform: scale(1.1);
+  }
+
+  .imagen-header {
+    width: 140px;
+    height: 140px;
+    border-radius: 10%;
+    object-fit: cover;
+    border: 2px solid #3498db;
+    transition: transform 0.3s ease;
+  }
+
+  .imagen-header:hover {
+    transform: scale(1.1);
+  }
+</style>
+
 <!-- CONTENEDOR PRINCIPAL -->
 <div style="max-width: 900px; margin: 0 auto; padding: 30px; font-family: Arial, sans-serif;">
 
@@ -72,7 +99,7 @@
         </div>
       </a>
     </div>
-    <img src="assets/verdep.PNG" alt="Proyecto Valencia Verde" style="width: 180px; border-radius: 10px; object-fit: cover;">
+    <img src="assets/verdep.PNG" alt="Proyecto Valencia Verde" class="imagen-proyecto">
   </div>
 </div>
 
