@@ -120,7 +120,7 @@
       <i class="devicon-mysql-plain" style="font-size: 30px; margin-right: 8px;"></i> SQL
     </span>
     <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px; display: flex; align-items: center;">
-      <i class="devicon-seaborn-plain" style="font-size: 30px; margin-right: 8px;"></i> Seaborn
+      <i class="devicon-matplotlib-plain" style="font-size: 30px; margin-right: 8px;"></i> Matplotlib
     </span>
     <span style="background: #e0f7fa; padding: 5px 10px; border-radius: 4px; display: flex; align-items: center;">
       <i class="devicon-tensorflow-original" style="font-size: 30px; margin-right: 8px;"></i> TensorFlow
