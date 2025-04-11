@@ -93,7 +93,7 @@
     </div>
     <div style="margin-bottom: 15px;">
       <h4 style="margin-bottom: 5px;">Agrupamiento de sonidos</h4>
-      <p style="margin: 0; line-height: 1.6;">Este proyecto realiza un análisis no supervisado para agrupar distintos sonidos .wav según sus características acústicas. Utiliza transformaciones de señal, reducción de dimensionalidad y técnicas de clustering para categorizar sonidos sin etiquetas previas.</p>
+      <p style="margin: 0; line-height: 1.6;">Este proyecto realiza un análisis no supervisado para agrupar distintos sonidos según sus características acústicas.</p>
     </div>
   </div>
 
