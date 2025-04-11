@@ -72,7 +72,7 @@
         </div>
       </a>
     </div>
-    <img src="assets/verdegrande.PNG" alt="Proyecto Valencia Verde" style="width: 180px; border-radius: 10px; object-fit: cover;">
+    <img src="assets/verdep.PNG" alt="Proyecto Valencia Verde" style="width: 180px; border-radius: 10px; object-fit: cover;">
   </div>
 </div>
 
