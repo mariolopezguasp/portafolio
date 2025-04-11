@@ -66,7 +66,6 @@
       <a href="https://github.com/mariolopezguasp/ValenciaVerde" target="_blank" style="text-decoration: none;">
         <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
-          <span style="color: #0077b5; font-size: 0.95em;">Ver en GitHub</span>
         </div>
       </a>
     </div>
@@ -90,7 +89,6 @@
       <a href="https://github.com/mariolopezguasp/Vino" target="_blank" style="text-decoration: none;">
         <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
-          <span style="color: #0077b5; font-size: 0.95em;">Ver en GitHub</span>
         </div>
       </a>
     </div>
@@ -100,7 +98,6 @@
       <a href="https://github.com/mariolopezguasp/CasasCalifornia" target="_blank" style="text-decoration: none;">
         <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
-          <span style="color: #0077b5; font-size: 0.95em;">Ver en GitHub</span>
         </div>
       </a>
     </div>
@@ -110,7 +107,6 @@
       <a href="https://github.com/mariolopezguasp/AgrupamientoSonidos" target="_blank" style="text-decoration: none;">
         <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
-          <span style="color: #0077b5; font-size: 0.95em;">Ver en GitHub</span>
         </div>
       </a>
     </div>
