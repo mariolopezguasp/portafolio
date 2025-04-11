@@ -20,7 +20,7 @@
   </a>
 
   <!-- LinkedIn -->
-  <a href="www.linkedin.com/in/mario-lópez-guasp-56b462225" target="_blank" style="text-decoration: none;">
+  <a href="https://www.linkedin.com/in/mario-l%C3%B3pez-guasp-56b462225/" target="_blank" style="text-decoration: none;">
     <div style="display: flex; align-items: center; gap: 8px; background-color: #eaf4fb; padding: 8px 12px; border-radius: 6px; border: 1px solid #3498db;">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width: 20px; height: 20px;">
       <span style="color: #0077b5;">LinkedIn</span>
