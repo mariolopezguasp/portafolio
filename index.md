@@ -1,7 +1,7 @@
 <!-- Header con nombre y título -->
 <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 30px; gap: 20px;">
   <!-- Imagen -->
-  <img src="assets/fotocarnetmario.jfif" alt="Foto de Mario" style="width: 100px; height: 100px; border-radius: 20%; object-fit: cover; border: 2px solid #3498db;">
+  <img src="assets/fotocarnetmario.jfif" alt="Foto de Mario" style="width: 100px; height: 100px; border-radius: 10%; object-fit: cover; border: 2px solid #3498db;">
   
   <!-- Nombre y título -->
   <div style="text-align: left;">
