@@ -166,7 +166,7 @@
       </a>
     </div>
     <!-- Imagen con zoom y lightbox -->
-    <a href="#img1"><img src="assets/verdep.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 260px; border-radius: 10px; object-fit: cover;"></a>
+    <a href="#img2"><img src="assets/vino.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 260px; border-radius: 10px; object-fit: cover;"></a>
   </div>
 
   <!-- Lightbox para ver en grande -->
