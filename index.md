@@ -1,3 +1,49 @@
+<!-- Header completo con foto a la izquierda y datos a la derecha -->
+<div style="display: flex; align-items: center; gap: 30px; margin-bottom: 30px;">
+
+  <!-- Imagen -->
+  <img src="assets/fotocarnetmario.jfif" alt="Foto de Mario" style="width: 120px; height: 120px; border-radius: 10%; object-fit: cover; border: 2px solid #3498db;">
+
+  <!-- Información: nombre, título y botones -->
+  <div style="display: flex; flex-direction: column; gap: 12px;">
+    <!-- Nombre y título -->
+    <div>
+      <h1 style="color: #2c3e50; font-size: 2.2em; margin: 0;">Mario López Guasp</h1>
+      <h2 style="color: #3498db; font-weight: 300; margin: 0;">DATA SCIENTIST</h2>
+    </div>
+    <!-- Botones de contacto -->
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <!-- GitHub -->
+      <a href="https://github.com/mariolopezguasp" target="_blank" style="text-decoration: none;">
+        <div style="display: flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #ccc;">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 20px; height: 20px;">
+          <span style="color: #333;">GitHub</span>
+        </div>
+      </a>
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/mario-l%C3%B3pez-guasp-56b462225/" target="_blank" style="text-decoration: none;">
+        <div style="display: flex; align-items: center; gap: 8px; background-color: #eaf4fb; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width: 20px; height: 20px;">
+          <span style="color: #0077b5;">LinkedIn</span>
+        </div>
+      </a>
+      <!-- CV -->
+      <a href="assets/CV_MarioLopezGuasp.pdf" target="_blank" style="text-decoration: none;">
+        <div style="display: flex; align-items: center; gap: 8px; background-color: #f0fff4; padding: 6px 10px; border-radius: 6px; border: 1px solid #27ae60;">
+          <span style="color: #27ae60; font-weight: 500;">📄 CV</span>
+        </div>
+      </a>
+      <!-- Email -->
+      <a href="mailto:mariolopezguasp@gmail.com" style="text-decoration: none;">
+        <div style="display: flex; align-items: center; gap: 8px; background-color: #fff5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #e74c3c;">
+          <span style="color: #e74c3c;">📧 mariolopezguasp@gmail.com</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+</div>
+
 <!-- Header con nombre, título y foto -->
 <div style="display: flex; align-items: center; justify-content: center; margin-bottom: 20px; gap: 20px;">
   <!-- Imagen -->
