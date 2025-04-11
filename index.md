@@ -72,7 +72,7 @@
         </div>
       </a>
     </div>
-    <img src="assets/valencia_verde.png" alt="Proyecto Valencia Verde" style="width: 180px; border-radius: 10px; object-fit: cover;">
+    <img src="assets/verdegrande.PNG" alt="Proyecto Valencia Verde" style="width: 180px; border-radius: 10px; object-fit: cover;">
   </div>
 </div>
 
@@ -90,7 +90,7 @@
         </div>
       </a>
     </div>
-    <img src="assets/vino.png" alt="Análisis de Vino" style="width: 180px; border-radius: 10px; object-fit: cover;">
+    <img src="assets/vino.PNG" alt="Análisis de Vino" style="width: 180px; border-radius: 10px; object-fit: cover;">
   </div>
 
   <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 15px;">
@@ -103,7 +103,7 @@
         </div>
       </a>
     </div>
-    <img src="assets/casas_florida.png" alt="Predicción Casas Florida" style="width: 180px; border-radius: 10px; object-fit: cover;">
+    <img src="assets/RF.PNG" alt="Predicción Casas Florida" style="width: 180px; border-radius: 10px; object-fit: cover;">
   </div>
 
   <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 15px;">
