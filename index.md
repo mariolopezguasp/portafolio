@@ -3,10 +3,8 @@
 
   <!-- Header completo con foto a la izquierda y datos a la derecha -->
   <div style="display: flex; align-items: center; gap: 30px; margin-bottom: 40px;">
-
     <!-- Imagen -->
     <img src="assets/fotocarnetmario.jfif" alt="Foto de Mario" style="width: 120px; height: 120px; border-radius: 10%; object-fit: cover; border: 2px solid #3498db;">
-
     <!-- Información: nombre, título y botones -->
     <div style="display: flex; flex-direction: column; gap: 12px;">
       <!-- Nombre y título -->
