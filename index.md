@@ -92,6 +92,37 @@
     </div>
   </div>
 
+  <!-- Footer con botones de contacto -->
+<div style="text-align: center; margin-top: 20px;">
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin-top: 20px;">
+    <!-- Email -->
+    <a href="mailto:mariolopezguasp@gmail.com" style="text-decoration: none;">
+      <div style="display: flex; align-items: center; gap: 8px; background-color: #fff5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
+        <span style="color:  #000000;">mariolopezguasp@gmail.com</span>
+      </div>
+    </a>
+    <!-- CV -->
+    <a href="assets/CV_MarioLopezGuasp.pdf" target="_blank" style="text-decoration: none;">
+      <div style="display: flex; align-items: center; gap: 8px; background-color: #f0fff4; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
+        <span style="color: #0077b5; font-weight: 500;">📄 CV</span>
+      </div>
+    </a>
+    <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/mario-l%C3%B3pez-guasp-56b462225/" target="_blank" style="text-decoration: none;">
+      <div style="display: flex; align-items: center; gap: 8px; background-color: #eaf4fb; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" style="width: 20px; height: 20px;">
+        <span style="color: #0077b5;">LinkedIn</span>
+      </div>
+    </a>
+    <!-- GitHub -->
+    <a href="https://github.com/mariolopezguasp" target="_blank" style="text-decoration: none;">
+      <div style="display: flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 6px 10px; border-radius: 6px; border: 1px solid #3498db;">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 20px; height: 20px;">
+        <span style="color: #0077b5;">GitHub</span>
+      </div>
+    </a>
+  </div>
+
   <!-- Footer con contacto -->
   <div style="text-align: center; margin-top: 20px; color: #7f8c8d;">
     <p>mariolopezguasp@email.com | 
