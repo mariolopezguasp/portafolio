@@ -9,7 +9,7 @@
     <!-- Nombre y título -->
     <div>
       <h1 style="color: #2c3e50; font-size: 2.2em; margin: 0;">Mario López Guasp</h1>
-      <h2 style="color: #3498db; font-weight: 300; margin: 0;">DATA SCIENTIST</h2>
+      <h2 style="color: #3498db; font-weight: 500; margin: 0;">DATA SCIENTIST</h2>
     </div>
     <!-- Botones de contacto -->
     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
