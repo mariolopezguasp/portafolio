@@ -81,14 +81,18 @@
 
   <!-- Sección Extra -->
   <div style="margin-bottom: 40px;">
-    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Extra</h3>
+    <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Otros trabajos realizados</h3>
     <div style="margin-bottom: 15px;">
       <h4 style="margin-bottom: 5px;">Análisis exploratorio completo sobre un dataset de vino</h4>
       <p style="margin: 0; line-height: 1.6;">Procesos de ETL, extracción de características y visualización sobre los datos del vino.</p>
     </div>
     <div style="margin-bottom: 15px;">
       <h4 style="margin-bottom: 5px;">Predicción del precio de vivienda en Florida</h4>
-      <p style="margin: 0; line-height: 1.6;">Modelos de árboles de decisión y random forest para predecir el precio de la vivienda en Florida.</p>
+      <p style="margin: 0; line-height: 1.6;">Entrenamiento de un modelo de regresión para predecir el precio de la vivienda en Florida.</p>
+    </div>
+    <div style="margin-bottom: 15px;">
+      <h4 style="margin-bottom: 5px;">Agrupamiento de sonidos</h4>
+      <p style="margin: 0; line-height: 1.6;">Este proyecto realiza un análisis no supervisado para agrupar distintos sonidos .wav según sus características acústicas. Utiliza transformaciones de señal, reducción de dimensionalidad y técnicas de clustering para categorizar sonidos sin etiquetas previas.</p>
     </div>
   </div>
 
