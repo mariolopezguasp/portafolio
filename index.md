@@ -5,7 +5,7 @@
   
   <!-- Nombre y título -->
   <div style="text-align: left;">
-    <h1 style="color: #2c3e50; font-size: 2em; margin: 0;">Mario López Guasp</h1>
+    <h1 style="color: #2c3e50; font-size: 2.5em; margin: 0;">Mario López Guasp</h1>
     <h2 style="color: #3498db; font-weight: 300; margin: 0;">DATA SCIENTIST</h2>
   </div>
   <!-- Botones de contacto -->
@@ -104,7 +104,7 @@
   
   <!-- Footer con contacto -->
   <div style="text-align: center; margin-top: 40px; color: #7f8c8d;">
-    <p>mariolopezguasp@email.com | <a href="www.linkedin.com/in/mario-lópez-guasp-56b462225" style="color: #3498db;">LinkedIn</a> | <a href="https://github.com/mariolopezguasp" style="color: #3498db;">Github</a></p>
+    <p>mariolopezguasp@email.com | <a href="https://www.linkedin.com/in/mario-l%C3%B3pez-guasp-56b462225/" style="color: #3498db;">LinkedIn</a> | <a href="https://github.com/mariolopezguasp" style="color: #3498db;">Github</a></p>
   </div>
 
 </div>
