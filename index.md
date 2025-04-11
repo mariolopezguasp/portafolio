@@ -165,7 +165,7 @@
       </a>
     </div>
     <!-- Imagen con zoom y lightbox -->
-    <a href="#img2"><img src="assets/vino.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 200px; border-radius: 10px; object-fit: cover;"></a>
+    <a href="#img2"><img src="assets/vino.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 220px; border-radius: 10px; object-fit: cover;"></a>
   </div>
 
   <!-- Lightbox para ver en grande -->
@@ -185,7 +185,7 @@
       </a>
     </div>
     <!-- Imagen con zoom y lightbox -->
-    <a href="#img3"><img src="assets/RF.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 200px; border-radius: 10px; object-fit: cover;"></a>
+    <a href="#img3"><img src="assets/RF.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 220px; border-radius: 10px; object-fit: cover;"></a>
   </div>
 
    <!-- Lightbox para ver en grande -->
@@ -205,7 +205,7 @@
       </a>
     </div>
     <!-- Imagen con zoom y lightbox -->
-    <a href="#img4"><img src="assets//cluster.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 200px; border-radius: 10px; object-fit: cover;"></a>
+    <a href="#img4"><img src="assets//cluster.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 220px; border-radius: 10px; object-fit: cover;"></a>
   </div>
 
    <!-- Lightbox para ver en grande -->
