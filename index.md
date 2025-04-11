@@ -170,7 +170,7 @@
   </div>
 
   <!-- Lightbox para ver en grande -->
-  <div id="img1" class="lightbox">
+  <div id="img2" class="lightbox">
     <a href="#" class="lightbox-close">&times;</a>
     <img src="assets/vino.PNG" alt="Web ValenciaVerde Ampliada">
   </div>
@@ -186,23 +186,34 @@
       </a>
     </div>
     <!-- Imagen con zoom y lightbox -->
-    <a href="#img1"><img src="assets/RF.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 260px; border-radius: 10px; object-fit: cover;"></a>
+    <a href="#img3"><img src="assets/RF.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 260px; border-radius: 10px; object-fit: cover;"></a>
   </div>
 
+   <!-- Lightbox para ver en grande -->
+  <div id="img3" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="assets/RF.PNG" alt="Web ValenciaVerde Ampliada">
+  </div>
 
   <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin-bottom: 15px;">
     <div style="flex: 1;">
       <h4 style="margin-bottom: 5px;">Agrupamiento de sonidos</h4>
-      <p style="margin: 0 0 8px 0; line-height: 1.6;">Análisis no supervisado para agrupar distintos sonidos según sus características acústicas.</p>
+      <p style="margin: 0; line-height: 1.6;">Análisis no supervisado para agrupar distintos sonidos según sus características acústicas.</p>
       <a href="https://github.com/mariolopezguasp/AgrupamientoSonidos" target="_blank" style="text-decoration: none;">
         <div style="display: inline-flex; align-items: center; gap: 8px; background-color: #f5f5f5; padding: 5px 10px; border-radius: 6px; border: 1px solid #3498db; margin-top: 5px;">
           <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" style="width: 18px; height: 18px;">
         </div>
       </a>
     </div>
-    <img src="assets/cluster.PNG" alt="Agrupamiento de Sonidos" style="width: 250px; border-radius: 10px; object-fit: cover;">
+    <!-- Imagen con zoom y lightbox -->
+    <a href="#img4"><img src="assets//cluster.PNG" alt="Web ValenciaVerde" class="zoomable" style="width: 260px; border-radius: 10px; object-fit: cover;"></a>
   </div>
-</div>
+
+   <!-- Lightbox para ver en grande -->
+  <div id="img4" class="lightbox">
+    <a href="#" class="lightbox-close">&times;</a>
+    <img src="assets//cluster.PNG" alt="Web ValenciaVerde Ampliada">
+  </div>
 
   <!-- Footer con botones de contacto -->
   <div style="text-align: center; margin-top: 20px;">
