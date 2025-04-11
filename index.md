@@ -45,7 +45,7 @@
   </div>
 
   <!-- Sección Objetivo -->
-  <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; margin-bottom: 40px;">
+  <div style="margin-bottom: 40px;">
     <h3 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 5px;">Sobre mí</h3>
     <p style="line-height: 1.6; margin: 0;">Soy un científico de datos en proceso de finalizar mis estudios de Ciencia de Datos en la Universidad de Valencia. Estoy muy motivado a desarrollar mis habilidades y conocimientos en el mundo laboral. Tengo una actitud proactiva que hará que mi trabajo se complemente con la visión y objetivos de la empresa.</p>
   </div>
