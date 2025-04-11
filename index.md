@@ -72,7 +72,7 @@
         </div>
       </a>
     </div>
-    <img src="assets/verdep.PNG" alt="Análisis de Vino" style="width: 180px; border-radius: 10px; object-fit: cover;">
+    <img src="assets/verdep.PNG" alt="Web ValenciaVerde" style="width: 250px; border-radius: 10px; object-fit: cover;">
   </div>
 </div>
 
